@@ -1,0 +1,64 @@
+
+6.) calculamos_edad(dia_nacimiento, mes_nacimiento, año_nacimiento, dia_actual, mes_actual, año_actual)
+
+    fecha_nacimiento =(año_nacimiento, mes_nacimiento, dia_nacimiento)
+    fecha_actual = (año_actual, mes_actual, dia_actual)
+
+    
+   Calculamos la diferencia en años
+    edad = año_actual - año_nacimiento
+
+   Revisar si el cumpleaños de este año aún no ha pasado
+    (mes_actual < mes_nacimiento) 
+      (dia_actual < dia_nacimiento)
+       
+    
+    Calcular el mes y los días restantes
+    fecha_cumpleanos_proxima = (año_actual, mes_nacimiento, dia_nacimiento)
+    fecha_actual < fecha_cumpleanos
+            
+    dias_restantes = (fecha_actual - fecha_cumpleaños_proxima)
+    
+    Calculamos meses completos
+    meses = (fecha_actual - fecha_cumpleaños_proxima) * 12 + fecha_actual - fecha_cumpleaños_proxima
+    dias = (fecha_actual - (fecha_cumpleaños_proxima + (	Dias = meses * 30   )
+    
+    # Verificamos si es el cumpleaños es hoy
+    cumpleaños_hoy = (dia_nacimiento = dia_actual) y (mes_nacimiento : mes_actual)
+ 
+    # Resultado
+    
+      
+        cumple_hoy: cumple_hoy
+
+
+
+	4. Distancia que recorre el vehiculo 
+
+calcular_distancia_total
+
+(velocidad) = (tiempo recorrido)
+
+        velocidad [Vel]
+        Tiempo[T]
+
+distancia_total = velocidad * tiempo
+distancia_total  = x 
+distancia_total = distancia_inicial + distancia recorrida
+    IMPRIMIR distancia_total
+     
+1. determinamos_aprobacion de notas
+  
+verificamos_aprobación 
+
+total_calificaciones= S
+numero_calificaciones= N
+
+Calculamos promedio =
+S / N
+
+Promedio > 3.0 aprobado  
+IMPRIMIR_Ana Aprobó el curos 
+
+Promedio < 3.O reprobado 
+IMPRIMIR_Ana reprueba el curso 
