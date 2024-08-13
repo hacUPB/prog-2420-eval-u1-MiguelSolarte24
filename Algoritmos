@@ -1,35 +1,28 @@
 
-6.) calculamos_edad(dia_nacimiento, mes_nacimiento, año_nacimiento, dia_actual, mes_actual, año_actual)
+6.) calculamos_edad =
 
-    fecha_nacimiento =(año_nacimiento, mes_nacimiento, dia_nacimiento)
-    fecha_actual = (año_actual, mes_actual, dia_actual)
+    fecha_nacimiento = año_nacimiento, mes_nacimiento, dia_nacimiento
+    fecha_actual =  año_actual, mes_actual, dia_actual
 
     
    Calculamos la diferencia en años
     edad = año_actual - año_nacimiento
 
-   Revisar si el cumpleaños de este año aún no ha pasado
+   Revisar si el cumpleaños de este año ya pasó 
     (mes_actual < mes_nacimiento) 
       (dia_actual < dia_nacimiento)
        
     
-    Calcular el mes y los días restantes
+    Calculamos el mes y los días restantes
     fecha_cumpleanos_proxima = (año_actual, mes_nacimiento, dia_nacimiento)
-    fecha_actual < fecha_cumpleanos
+    fecha_actual < fecha_cumpleaños
             
     dias_restantes = (fecha_actual - fecha_cumpleaños_proxima)
     
-    Calculamos meses completos
-    meses = (fecha_actual - fecha_cumpleaños_proxima) * 12 + fecha_actual - fecha_cumpleaños_proxima
-    dias = (fecha_actual - (fecha_cumpleaños_proxima + (	Dias = meses * 30   )
-    
-    # Verificamos si es el cumpleaños es hoy
-    cumpleaños_hoy = (dia_nacimiento = dia_actual) y (mes_nacimiento : mes_actual)
- 
-    # Resultado
-    
-      
-        cumple_hoy: cumple_hoy
+
+si el dia_actual = dia_nacimiento  y  mes_actual = mes_nacimiento
+
+    Hoy_es_su_cumpleaños  
 
 
 
@@ -58,7 +51,7 @@ Calculamos promedio =
 S / N
 
 Promedio > 3.0 aprobado  
-IMPRIMIR_Ana Aprobó el curos 
+IMPRIMIR Ana_Aprobó_el_curso 
 
 Promedio < 3.O reprobado 
-IMPRIMIR_Ana reprueba el curso 
+IMPRIMIR Ana_reprueba_el_curso 
